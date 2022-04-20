@@ -5,11 +5,11 @@
 }
 @font-face {
 	font-family: 'Avenir';
-	src: url('./fonts/AvenirNextLTPro-Bold.otf');
+	src: url('../fonts/AvenirNextLTPro-Bold.otf');
 }
 @font-face {
 	font-family: 'Avenir';
-	src: url('./fonts/AvenirNextLTPro-Regular.otf');
+	src: url('../fonts/AvenirNextLTPro-Regular.otf');
 }
 body {
 	background-color: var(--background-color);
@@ -88,7 +88,7 @@ span {
 }
 
 .first-screen {
-	background-image: url('./images/HeroBackground.svg');
+	background-image: url('../images/HeroBackground.svg');
 	background-position: right top;
 	background-repeat: no-repeat;
 }
@@ -273,7 +273,7 @@ span {
 			rgba(0, 0, 0, 0) 56.76%,
 			#000000 83.92%
 		),
-		url('./images/ScannerBackgroundImage.jpg') top center;
+		url('../images/ScannerBackgroundImage.jpg') top center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
@@ -400,7 +400,7 @@ span {
 }
 .qrcode::before {
 	left: 0;
-	background: url('./images/QrcodeLeftBackgroundImage.png') top center;
+	background: url('../images/QrcodeLeftBackgroundImage.png') top center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: -1;
@@ -408,7 +408,7 @@ span {
 }
 .qrcode::after {
 	right: 0;
-	background: url('./images/QrcodeRightBackgroundImage.png') top center;
+	background: url('../images/QrcodeRightBackgroundImage.png') top center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: 1;
@@ -476,8 +476,8 @@ span {
 }
 
 .generate {
-	background: url('./images/GenerateBackgroundImage.svg') center center,
-		url('./images/GenerateBackgroundText.svg') center center;
+	background: url('../images/GenerateBackgroundImage.svg') center center,
+		url('../images/GenerateBackgroundText.svg') center center;
 	background-repeat: no-repeat;
 	background-size: contain, contain;
 	width: 100%;
@@ -535,7 +535,7 @@ span {
 	line-height: 1.5;
 }
 .ordering {
-	background: url('./images/OrderingBackground.svg') top right no-repeat;
+	background: url('../images/OrderingBackground.svg') top right no-repeat;
 }
 .ordering__wrapper {
 	max-width: 1200px;
@@ -596,7 +596,7 @@ span {
 	left: 25%;
 }
 .notab-phone {
-	background: url('./images/NotabPhoneBackground.svg') top center;
+	background: url('../images/NotabPhoneBackground.svg') top center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -610,8 +610,8 @@ span {
 	height: auto;
 }
 .contact {
-	background: url('./images/ContactTopBackground.svg') top center,
-		url('./images/ContactBottomBackground.svg') bottom right;
+	background: url('../images/ContactTopBackground.svg') top center,
+		url('../images/ContactBottomBackground.svg') bottom right;
 	background-repeat: no-repeat;
 	background-size: auto;
 	width: 100%;
@@ -697,7 +697,7 @@ span {
 }
 .footer {
 	width: 100%;
-	background-image: url('./images/FooterBackground.svg');
+	background-image: url('../images/FooterBackground.svg');
 	background-position: 0% 40%;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -1016,7 +1016,7 @@ span {
 				#000000 24.92%,
 				rgba(0, 0, 0, 0) 30.76%
 			),
-			url(./images/ScannerBackgroundImage.jpg) top center;
+			url('../images/ScannerBackgroundImage.jpg') top center;
 		background-repeat: no-repeat;
 		background-size: contain;
 		margin-bottom: 10rem;
@@ -1241,7 +1241,7 @@ span {
 		align-self: stretch;
 	}
 	.footer {
-		background-image: url(./images/FooterBackground.svg);
+		background-image: url('../images/FooterBackground.svg');
 		background-position: 0% 0%;
 		background-repeat: no-repeat;
 		background-size: cover;
